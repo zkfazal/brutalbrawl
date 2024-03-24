@@ -33,6 +33,19 @@ export class Preloader extends Scene
         this.load.setPath('assets');
 
         this.load.image('logo', 'logo.png');
+
+         // Add the feamle brawler assets:
+        this.load.multiatlas('female_brawler', 'female_brawler.json');
+
+         // Add the title scene background
+        this.load.image('mainmenu_001', 'titleScene/mainmenu_001.gif');
+        this.load.image('mainmenu_002', 'titleScene/mainmenu_002.gif');
+        this.load.image('mainmenu_003', 'titleScene/mainmenu_003.gif');
+        this.load.image('mainmenu_004', 'titleScene/mainmenu_004.gif');
+
+        // Add the font files. This is mainly for the title screen to make it look cool
+        this.load.font("dragon_tff", "fonts/dragon.ttf");
+        this.load.font("dragon_woff", "fonts/dragon.woff");
     }
 
     create ()

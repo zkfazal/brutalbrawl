@@ -33,6 +33,9 @@
         "webpack-merge": "^5.10.0"
     },
     "dependencies": {
-        "phaser": "^3.80.1"
+        "phaser": "^3.80.1",
+        "phaser-matter-collision-plugin": "^1.0.0",
+        "phaser3-merged-input": "^1.8.4",
+        "phaser3-rex-plugins": "^1.80.1"
     }
 }
